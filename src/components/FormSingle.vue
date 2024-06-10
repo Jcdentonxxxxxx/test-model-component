@@ -3,8 +3,7 @@
         <form>
             <input
                 type="text"
-                :value="props.modelValue"
-                @input="emit('update:modelValue', $event.target.value)"
+                
             >
 
         </form>
@@ -13,12 +12,10 @@
 
 <script setup>
     const props = defineProps({
-        modelValue: {
-            required: true
-        }
+        
     })
 
-    const emit = defineEmits(['update:modelValue'])
+    const emit = defineEmits()
 </script>
 
 <style lang="scss" scoped>

@@ -3,7 +3,7 @@
   <span style="color: brown; font-size: 20px;">FormSingle</span>
   <div>name input: {{ name }}</div>    
   <FormSingle
-    v-model="name"
+    
     class="class1"
   />
   <!-- <== FormSingle -->
@@ -23,8 +23,7 @@
   <div>year select: {{ year }}</div> 
   <br>
   <FormMultiple 
-    v-model:surname="surname"
-    v-model:year="year"
+    
   />
   <!-- <== FormMultiple -->
 
